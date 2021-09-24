@@ -1,19 +1,17 @@
-spring:
-# Configuration de Spring MVC pour la gestion des exceptions
-  mvc:
-    throw-exception-if-no-handler-found: true
-  web:
-    resources:
-      add-mappings: false
-
-
----
 # Set profil for LocalHost
 
 spring:
   config:
     activate:
       on-profile: localhost
+
+  # Configuration de Spring MVC pour la gestion des exceptions
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
 server:
   port : 8081
 
@@ -44,6 +42,13 @@ spring:
   config:
     activate:
       on-profile: DEV
+
+  # Configuration de Spring MVC pour la gestion des exceptions
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
 
 logging:
   level:
