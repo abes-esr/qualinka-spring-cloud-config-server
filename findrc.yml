@@ -32,8 +32,7 @@ logging:
       abes: DEBUG
     #reactor:
       #netty: debug
-log4j2:
-  configurationFile: http://localhost:8888/finrc/localhost/master/log4j2-local.xml
+  config: classpath:log4j2-local.xml
 
 solr:
   base-url: http://solrtotal.v102.abes.fr:8081
@@ -53,6 +52,7 @@ logging:
     root: INFO
     fr:
       abes: DEBUG
+  config: classpath:log4j2-dev.xml
 
 solr:
   base-url: http://solrtotal.v102.abes.fr:8081
