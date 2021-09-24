@@ -1,0 +1,60 @@
+spring:
+  application:
+    name: findrc
+  profiles:
+    active: localhost
+# Configuration de Spring MVC pour la gestion des exceptions
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+
+---
+# Set profil for LocalHost
+
+spring:
+  config:
+    activate:
+      on-profile: localhost
+server:
+  port : 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics
+
+logging:
+  level:
+    root: INFO
+    fr:
+      abes: DEBUG
+    #reactor:
+      #netty: debug
+  config: classpath:log4j2-local.xml
+
+solr:
+  base-url: http://solrtotal.v102.abes.fr:8081
+
+
+
+---
+# Set profil for Develop
+
+spring:
+  config:
+    activate:
+      on-profile: DEV
+
+logging:
+  level:
+    root: INFO
+    fr:
+      abes: DEBUG
+  config: classpath:log4j2-dev.xml
+
+solr:
+  base-url: http://solrtotal.v102.abes.fr:8081
