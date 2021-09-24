@@ -34,7 +34,7 @@ logging:
       abes: DEBUG
     #reactor:
       #netty: debug
-  config: log4j2-local.xml
+  config: https://github.com/abes-esr/spring-cloud-config-server/blob/master/log4j2-local.xml
 
 solr:
   base-url: http://solrtotal.v102.abes.fr:8081
