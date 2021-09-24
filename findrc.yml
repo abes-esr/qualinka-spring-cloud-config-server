@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: findrc
   profiles:
     active: localhost
 # Configuration de Spring MVC pour la gestion des exceptions
@@ -34,7 +32,6 @@ logging:
       abes: DEBUG
     #reactor:
       #netty: debug
-  config: classpath:log4j2-local.xml
   configurationFile: http://localhost:8888/finrc/localhost/master/log4j2-local.xml
 
 solr:
@@ -55,7 +52,6 @@ logging:
     root: INFO
     fr:
       abes: DEBUG
-  config: classpath:log4j2-dev.xml
 
 solr:
   base-url: http://solrtotal.v102.abes.fr:8081
