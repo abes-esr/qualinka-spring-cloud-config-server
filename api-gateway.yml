@@ -13,7 +13,7 @@ spring:
       add-mappings: false
 
 server:
-  port : 8282
+  port : 8765
 
 eureka:
   client:
