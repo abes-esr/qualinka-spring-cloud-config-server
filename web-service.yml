@@ -35,16 +35,6 @@ logging:
       #netty: debug
   config: classpath:log4j2-local.xml
 
-feign:
-  client:
-    config:
-      findra:
-        connectTimeout: 5000
-        readTimeout: 5000
-        loggerLevel: basic
-
-
-
 
 ---
 # Set profil for Develop
