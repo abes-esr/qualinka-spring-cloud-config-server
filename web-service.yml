@@ -35,6 +35,14 @@ logging:
       #netty: debug
   config: classpath:log4j2-local.xml
 
+feign:
+  client:
+    config:
+      name_of_your_feign_client:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+
 
 
 
