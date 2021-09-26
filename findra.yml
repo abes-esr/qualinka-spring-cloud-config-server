@@ -5,6 +5,14 @@ spring:
     activate:
       on-profile: localhost
 
+    import: optional:configserver:http://localhost:8888
+
+  application:
+    name: findra
+  cloud:
+    config:
+      profile: localhost
+
   # Configuration de Spring MVC pour la gestion des exceptions
   mvc:
     throw-exception-if-no-handler-found: true
