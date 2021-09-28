@@ -5,6 +5,10 @@ spring:
     activate:
       on-profile: localhost
 
+  sleuth:
+    sampler:
+      probability: 1.0
+
   # Configuration de Spring MVC pour la gestion des exceptions
   mvc:
     throw-exception-if-no-handler-found: true
@@ -25,6 +29,8 @@ management:
     web:
       exposure:
         include: health, info, metrics
+
+
 
 logging:
   level:
