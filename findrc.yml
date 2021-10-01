@@ -40,7 +40,7 @@ logging:
   config: classpath:log4j2-local.xml
 
 solr:
-  base-url: http://solrtotal.v102.abes.fr:8081
+  base-url: ENC(PvGrFZ5FFPa+++bA+fZSEnTv8EhbR5dz1AEKiouKjFCuKPrQeoSPa/92y4UUgBuz8O2RqgF4x716OEHD5Xqf6J7cYHnbG0pg+0d2UQcXtgY=)
 
 
 
@@ -67,4 +67,4 @@ logging:
   config: classpath:log4j2-dev.xml
 
 solr:
-  base-url: http://solrtotal.v102.abes.fr:8081
+  base-url: ENC(PvGrFZ5FFPa+++bA+fZSEnTv8EhbR5dz1AEKiouKjFCuKPrQeoSPa/92y4UUgBuz8O2RqgF4x716OEHD5Xqf6J7cYHnbG0pg+0d2UQcXtgY=)
