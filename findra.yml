@@ -40,7 +40,7 @@ logging:
   config: classpath:log4j2-local.xml
 
 solr:
-  base-url: ENC(quQCFmP891eYiUeXDXfmRpQ+YEaqWpND+undW2I0ZzpsnxiiEQJf3B5hhxtpny2v)
+  base-url: ENC(DOfa8fQ32Z3Ef3aue/+RKYdNkRtwCdPHPbRlWqeYlheyzl7tswVih0Cy/FjJZJolsE2YlDbHXP44K1ff1bj8fzlsb2Kg7yLY+mjeNVrAhGo=)
 
 
 
