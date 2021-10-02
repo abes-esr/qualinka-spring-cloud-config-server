@@ -42,6 +42,14 @@ logging:
 solr:
   base-url: ENC(PvGrFZ5FFPa+++bA+fZSEnTv8EhbR5dz1AEKiouKjFCuKPrQeoSPa/92y4UUgBuz8O2RqgF4x716OEHD5Xqf6J7cYHnbG0pg+0d2UQcXtgY=)
 
+### Oracle
+database:
+  host: ENC(T+GjHEKZUsNrht2BJZi4ROu5EIhBls3V0uFXsGq5MHGz3aQbOZGFaA==)
+  port: 1521
+  serviceName: ENC(kqwU4zKfdCY6KlO5lCmdlcKlCUBJTuRu)
+  user: ENC(CR8o4GfrmCFUJ8tlPBRE/3THbheehOEy)
+  password: ENC(PKY7GCAxXmO8UvQSw9r8zOnyA5fH+vci)
+
 
 
 ---
