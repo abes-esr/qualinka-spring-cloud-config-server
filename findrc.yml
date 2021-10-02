@@ -44,11 +44,11 @@ solr:
 
 ### Oracle
 database:
-  host: ENC(3pu+0M425dSDyKQNLWAMl+m2BeB5sPvkJNNrReM9QNSxXz36VaOHa+vd6PQdX7BiWemamruoXy/3i1jN99Qp/Q==)
+  host: ENC(gxa33EKXLCnd7ZiJvU9JVhTMu475TZYh2mxiLr1adb/Za4YQPBhcfffKSxSMCRTqmrxSA08PvudmIlMZsB4GEw==)
   port: 1521
-  serviceName: ENC(BeB1x+qYuTvAF7JuUizfsmFy8V3pv9YRP0rIoEdT5e/OJIQLVNPDBMgbk3EHWZRL)
-  user: ENC(nAYUgT/brXtO5BjIl+Q2LnZVJqWGlNjeureJ1DURsDXeErYskqHhRInLWsCxVspl)
-  password: ENC(IqfKUUapHp/9U/nBiaOq3b/BYs9k11g9EkgFUECP9nob1/JMjz0Kv2iXF2UiCKEM)
+  serviceName: ENC(tiFD2VsjPAsMeJRh545/DCJ7Q/+CU3FLpFm29BTUmk3+imjZ2A5dIELULdYvhClH)
+  user: ENC(CD/ezi0HjRXvcB5AoYcKahQZO2P7vj4isRll45iYPJB/JnoWYMteAo8eOgKnBH+I)
+  password: ENC(NLy/v8SEHJDfX+KUXmNch6l9ptquE5nkPKO+Qk7wMdpzNTMmD4TBKjrQQJIzx50r)
 
 
 
