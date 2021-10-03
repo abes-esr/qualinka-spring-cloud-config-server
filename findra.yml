@@ -30,14 +30,6 @@ management:
       exposure:
         include: health, info, metrics
 
-logging:
-  level:
-    root: INFO
-    fr:
-      abes: DEBUG
-    reactor:
-      netty: debug
-
   config: classpath:log4j2-local.xml
 
 solr:
