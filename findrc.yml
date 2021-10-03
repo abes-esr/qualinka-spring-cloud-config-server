@@ -35,8 +35,12 @@ logging:
     root: INFO
     fr:
       abes: DEBUG
-    #reactor:
-      #netty: debug
+
+    org:
+      springframework:
+        r2dbc: DEBUG
+
+
   config: classpath:log4j2-local.xml
 
 solr:
