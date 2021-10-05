@@ -48,7 +48,7 @@ solr:
 
 ### Oracle
 database:
-  host: ENC(qevpc0mSx6LOoOftZsVWT9p1yUEitD1MRLQ2R33VAe8HGgHapm/gJ6IAnrZRDFeY)
+  host: ENC(4ZMt2DUKAzRKfs972gaGSFRX6uZ9cKsgl9Jh5Y6BPVKEG/q1JHwlAH69u7ikBQmLlMC2GU9gmVkOZZFV3uPl+g==)
   port: 1521
   serviceName: ENC(02RMhlCIEQq4Fe4Xre8kmAZtqFGK0+ELNOV8CSFGiujBkAVzM1VOadaLBkv4+fRF)
   user: ENC(EHQ94F01KgeC4jqqOHY4if+2FIFdfTz23lEiJHz0V60YjuaRFHBqnXV3P8P6Ejaw)
