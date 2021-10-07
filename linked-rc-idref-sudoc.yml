@@ -1,0 +1,69 @@
+# Set profil for LocalHost
+
+spring:
+  config:
+    activate:
+      on-profile: localhost
+
+  sleuth:
+    sampler:
+      probability: 1.0
+
+  # Configuration de Spring MVC pour la gestion des exceptions
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+server:
+  port : 8085
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics
+
+logging:
+  level:
+    root: INFO
+    fr:
+      abes: DEBUG
+
+  config: classpath:log4j2-local.xml
+
+solr:
+  base-url: ENC(PvGrFZ5FFPa+++bA+fZSEnTv8EhbR5dz1AEKiouKjFCuKPrQeoSPa/92y4UUgBuz8O2RqgF4x716OEHD5Xqf6J7cYHnbG0pg+0d2UQcXtgY=)
+
+
+
+---
+# Set profil for Develop
+
+spring:
+  config:
+    activate:
+      on-profile: DEV
+
+  # Configuration de Spring MVC pour la gestion des exceptions
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+logging:
+  level:
+    root: INFO
+    fr:
+      abes: DEBUG
+  config: classpath:log4j2-dev.xml
+
+solr:
+  base-url: ENC(PvGrFZ5FFPa+++bA+fZSEnTv8EhbR5dz1AEKiouKjFCuKPrQeoSPa/92y4UUgBuz8O2RqgF4x716OEHD5Xqf6J7cYHnbG0pg+0d2UQcXtgY=)
