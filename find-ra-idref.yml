@@ -41,6 +41,9 @@ logging:
 solr:
   base-url: ENC(PvGrFZ5FFPa+++bA+fZSEnTv8EhbR5dz1AEKiouKjFCuKPrQeoSPa/92y4UUgBuz8O2RqgF4x716OEHD5Xqf6J7cYHnbG0pg+0d2UQcXtgY=)
 
+test:
+  refresh: toto
+
 
 
 ---
@@ -67,5 +70,3 @@ logging:
 
 solr:
   base-url: ENC(PvGrFZ5FFPa+++bA+fZSEnTv8EhbR5dz1AEKiouKjFCuKPrQeoSPa/92y4UUgBuz8O2RqgF4x716OEHD5Xqf6J7cYHnbG0pg+0d2UQcXtgY=)
-test:
-  refresh: toto
