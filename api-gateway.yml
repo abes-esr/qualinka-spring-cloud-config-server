@@ -1,3 +1,32 @@
+# Gestion des OpenAPI
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: openapi
+        uri: http://localhost:${server.port}
+        predicates:
+        - Path=/v3/api-docs/**
+        filters:
+        - RewritePath=/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs
+
+springdoc:
+  swagger-ui:
+    urls:
+      - name: attrra
+        url: /v3/api-docs/attrra
+      - name: attrrc   
+        url: /v3/api-docs/attrrc
+      - name: find-nonlinked-rc-sudoc
+        url: /v3/api-docs/find-nonlinked-rc-sudoc
+      - name: find-ra-idref
+        url: /v3/api-docs/find-ra-idref
+      - name: linked-rc-idref-sudoc
+        url: /v3/api-docs/linked-rc-idref-sudoc
+
+---
+
 # Set profil for LocalHost
 
 spring:
