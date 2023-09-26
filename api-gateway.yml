@@ -13,6 +13,7 @@ spring:
 
 springdoc:
   swagger-ui:
+    path: /data
     urls:
       - name: attrra
         url: /v3/api-docs/attrra
