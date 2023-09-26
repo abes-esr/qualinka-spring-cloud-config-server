@@ -10,9 +10,10 @@ spring:
         - Path=/v3/api-docs/**
         filters:
         - RewritePath=/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs
-
+        
 springdoc:
   swagger-ui:
+    path: /data/swagger-ui.html
     urls:
       - name: attrra
         url: /v3/api-docs/attrra
