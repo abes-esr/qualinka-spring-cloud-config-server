@@ -14,7 +14,6 @@ spring:
 springdoc:
   swagger-ui:
     configUrl: /data/v3/api-docs/swagger-config
-    springdoc.webjars.prefix: /data/webjars
     urls:
       - name: attrra
         url: /data/v3/api-docs/attrra
