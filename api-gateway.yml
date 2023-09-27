@@ -7,9 +7,9 @@ spring:
       - id: openapi
         uri: http://localhost:${server.port}
         predicates:
-        - Path=/data/v3/api-docs/**
+        - Path=/v3/api-docs/**
         filters:
-        - RewritePath=/data/v3/api-docs/(?<path>.*), /data/$\{path}/v3/api-docs
+        - RewritePath=/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs
 
 springdoc:
   swagger-ui:
