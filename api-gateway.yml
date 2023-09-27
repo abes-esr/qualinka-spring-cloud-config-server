@@ -16,7 +16,7 @@ springdoc:
     configUrl: /data/v3/api-docs/swagger-config
     #url: /data/v3/api-docs
     disable-swagger-default-url: true
-    path: /data/swagger-ui.html
+    #path: /data/swagger-ui.html
     urls:
       - name: attrra
         url: /data/v3/api-docs/attrra
